@@ -60,6 +60,7 @@
     padding: 30px 0;
     font-size: 18px;
     font-weight: 700;
+    text-transform: capitalize;
     color: var(--dark);
     outline: none;
     transition: .5s;
@@ -80,6 +81,7 @@
         left: 50%;
         background: var(--primary);
         transition: .5s;
+        text-transform: capitalize;
     }
 
     .navbar-light .navbar-nav .nav-link:hover::before,
@@ -97,7 +99,7 @@
 }
 
 .hero-header {
-    background: url(../img/hero.jpg) top right no-repeat;
+    background: url(../img/img2.jpg) top right no-repeat;
     background-size: cover;
 }
 
